@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/bill/esp/esp-cam/cam-example/camera_example/build/CMakeFiles/bootloader
+/home/bill/esp/esp-cam/cam-example/camera_example/build/CMakeFiles/bootloader.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/CMakeFiles/bootloader-complete.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/bill/esp/esp-cam/cam-example/camera_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

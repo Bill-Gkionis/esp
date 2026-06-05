@@ -1,0 +1,16 @@
+Command: cmake -G Ninja -B /home/bill/esp/esp-cam/room-cam/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/bill/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False /home/bill/esp/esp-cam/room-cam
+Loading defaults file /home/bill/esp/esp-cam/room-cam/sdkconfig.defaults...
+Configuration Report                                                            
+ ────────────────────────────────────────────────────────────────────────────── 
+   Parser Version: 1                                                            
+   Verbosity: default                                                           
+   Defaults policy: sdkconfig                                                   
+   Status: Finished with notifications                                          
+                                                                                
+  Disabled Symbols/Choices With User-Set Value                                  
+   ──────────────────────────────────────────────────────────────────────────   
+    * ESP_CONSOLE_UART_BAUDRATE (defined at                                     
+    /home/bill/.espressif/v6.0.1/esp-idf/components/esp_stdio/Kconfig:150)      
+    with user-set value 115200 from /tmp/kconfgen_tmpgdl6rypa                   
+   ──────────────────────────────────────────────────────────────────────────   
+ ────────────────────────────────────────────────────────────────────────────── 

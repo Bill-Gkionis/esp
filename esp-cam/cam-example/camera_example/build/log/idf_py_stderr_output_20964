@@ -1,0 +1,25 @@
+Command: cmake -G Ninja -B /home/bill/esp/esp-cam/cam-example/camera_example/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/bill/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/bill/esp/esp-cam/cam-example/camera_example
+Loading defaults file /home/bill/esp/esp-cam/cam-example/camera_example/sdkconfig.defaults...
+info: /tmp/kconfgen_tmpilpe10nh:1 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+info: /tmp/kconfgen_tmpilpe10nh:13 CONFIG_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+info: /tmp/kconfgen_tmpilpe10nh:14 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+warning: unknown kconfig symbol 'ESP32S2_DEFAULT_CPU_FREQ_240' assigned to 'y' in /home/bill/esp/esp-cam/cam-example/camera_example/sdkconfig.defaults
+warning: unknown kconfig symbol 'ESP32S3_DEFAULT_CPU_FREQ_240' assigned to 'y' in /home/bill/esp/esp-cam/cam-example/camera_example/sdkconfig.defaults
+warning: unknown kconfig symbol 'ESP32S2_SPIRAM_SUPPORT' assigned to 'y' in /home/bill/esp/esp-cam/cam-example/camera_example/sdkconfig.defaults
+warning: unknown kconfig symbol 'ESP32S3_SPIRAM_SUPPORT' assigned to 'y' in /home/bill/esp/esp-cam/cam-example/camera_example/sdkconfig.defaults
+Configuration Report                     
+ ─────────────────────────────────────── 
+   Parser Version: 1                     
+   Verbosity: default                    
+   Defaults policy: sdkconfig            
+   Status: Finished with notifications   
+                                         
+  Multiple Assignments                   
+   ────────────────────────              
+    Symbol SPIRAM:                       
+        y (user-set value)               
+        y (user-set value)               
+        y (user-set value)               
+        -> using y                       
+   ────────────────────────              
+ ─────────────────────────────────────── 

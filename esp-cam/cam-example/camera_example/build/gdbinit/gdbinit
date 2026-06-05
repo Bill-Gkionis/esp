@@ -1,0 +1,2 @@
+source /home/bill/esp/esp-cam/cam-example/camera_example/build/gdbinit/symbols
+source /home/bill/esp/esp-cam/cam-example/camera_example/build/gdbinit/connect
